@@ -1,0 +1,527 @@
+[
+  {
+    "id": "a-seed-1-1772248448327",
+    "createdAt": "2026-01-29T03:14:08.326Z",
+    "updatedAt": "2026-01-29T03:14:08.326Z",
+    "totalPlayers": 4894,
+    "activePlayers": 2233,
+    "avgPlaytimeMinutes": 64,
+    "avgScore": 4363,
+    "byStatus": {
+      "active": 73,
+      "inactive": 0,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-2-1772248448327",
+    "createdAt": "2026-01-30T03:14:08.326Z",
+    "updatedAt": "2026-01-30T03:14:08.326Z",
+    "totalPlayers": 875,
+    "activePlayers": 778,
+    "avgPlaytimeMinutes": 175,
+    "avgScore": 8368,
+    "byStatus": {
+      "active": 0,
+      "inactive": 87,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-3-1772248448327",
+    "createdAt": "2026-01-31T03:14:08.326Z",
+    "updatedAt": "2026-01-31T03:14:08.326Z",
+    "totalPlayers": 258,
+    "activePlayers": 231,
+    "avgPlaytimeMinutes": 141,
+    "avgScore": 1613,
+    "byStatus": {
+      "active": 0,
+      "inactive": 0,
+      "banned": 100
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-4-1772248448327",
+    "createdAt": "2026-02-01T03:14:08.326Z",
+    "updatedAt": "2026-02-01T03:14:08.326Z",
+    "totalPlayers": 2994,
+    "activePlayers": 1078,
+    "avgPlaytimeMinutes": 90,
+    "avgScore": 6365,
+    "byStatus": {
+      "active": 386,
+      "inactive": 0,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-5-1772248448327",
+    "createdAt": "2026-02-02T03:14:08.326Z",
+    "updatedAt": "2026-02-02T03:14:08.326Z",
+    "totalPlayers": 1455,
+    "activePlayers": 1371,
+    "avgPlaytimeMinutes": 64,
+    "avgScore": 2765,
+    "byStatus": {
+      "active": 0,
+      "inactive": 31,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-6-1772248448327",
+    "createdAt": "2026-02-03T03:14:08.326Z",
+    "updatedAt": "2026-02-03T03:14:08.326Z",
+    "totalPlayers": 2373,
+    "activePlayers": 1410,
+    "avgPlaytimeMinutes": 105,
+    "avgScore": 7242,
+    "byStatus": {
+      "active": 0,
+      "inactive": 0,
+      "banned": 100
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-7-1772248448327",
+    "createdAt": "2026-02-04T03:14:08.326Z",
+    "updatedAt": "2026-02-04T03:14:08.326Z",
+    "totalPlayers": 1890,
+    "activePlayers": 982,
+    "avgPlaytimeMinutes": 45,
+    "avgScore": 6835,
+    "byStatus": {
+      "active": 132,
+      "inactive": 0,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-8-1772248448327",
+    "createdAt": "2026-02-05T03:14:08.326Z",
+    "updatedAt": "2026-02-05T03:14:08.326Z",
+    "totalPlayers": 3116,
+    "activePlayers": 102,
+    "avgPlaytimeMinutes": 153,
+    "avgScore": 7232,
+    "byStatus": {
+      "active": 0,
+      "inactive": 386,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-9-1772248448327",
+    "createdAt": "2026-02-06T03:14:08.326Z",
+    "updatedAt": "2026-02-06T03:14:08.326Z",
+    "totalPlayers": 2703,
+    "activePlayers": 1510,
+    "avgPlaytimeMinutes": 30,
+    "avgScore": 1655,
+    "byStatus": {
+      "active": 0,
+      "inactive": 0,
+      "banned": 24
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-10-1772248448327",
+    "createdAt": "2026-02-07T03:14:08.326Z",
+    "updatedAt": "2026-02-07T03:14:08.326Z",
+    "totalPlayers": 4609,
+    "activePlayers": 4592,
+    "avgPlaytimeMinutes": 165,
+    "avgScore": 1078,
+    "byStatus": {
+      "active": 105,
+      "inactive": 0,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-11-1772248448327",
+    "createdAt": "2026-02-08T03:14:08.326Z",
+    "updatedAt": "2026-02-08T03:14:08.326Z",
+    "totalPlayers": 3661,
+    "activePlayers": 3383,
+    "avgPlaytimeMinutes": 58,
+    "avgScore": 7379,
+    "byStatus": {
+      "active": 0,
+      "inactive": 87,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-12-1772248448327",
+    "createdAt": "2026-02-09T03:14:08.326Z",
+    "updatedAt": "2026-02-09T03:14:08.326Z",
+    "totalPlayers": 4741,
+    "activePlayers": 3496,
+    "avgPlaytimeMinutes": 93,
+    "avgScore": 1341,
+    "byStatus": {
+      "active": 0,
+      "inactive": 0,
+      "banned": 100
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-13-1772248448327",
+    "createdAt": "2026-02-10T03:14:08.326Z",
+    "updatedAt": "2026-02-10T03:14:08.326Z",
+    "totalPlayers": 4197,
+    "activePlayers": 3690,
+    "avgPlaytimeMinutes": 147,
+    "avgScore": 462,
+    "byStatus": {
+      "active": 331,
+      "inactive": 0,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-14-1772248448327",
+    "createdAt": "2026-02-11T03:14:08.326Z",
+    "updatedAt": "2026-02-11T03:14:08.326Z",
+    "totalPlayers": 1981,
+    "activePlayers": 1515,
+    "avgPlaytimeMinutes": 49,
+    "avgScore": 6215,
+    "byStatus": {
+      "active": 0,
+      "inactive": 178,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-15-1772248448327",
+    "createdAt": "2026-02-12T03:14:08.326Z",
+    "updatedAt": "2026-02-12T03:14:08.326Z",
+    "totalPlayers": 2648,
+    "activePlayers": 2017,
+    "avgPlaytimeMinutes": 58,
+    "avgScore": 4435,
+    "byStatus": {
+      "active": 0,
+      "inactive": 0,
+      "banned": 100
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-16-1772248448327",
+    "createdAt": "2026-02-13T03:14:08.326Z",
+    "updatedAt": "2026-02-13T03:14:08.326Z",
+    "totalPlayers": 2601,
+    "activePlayers": 1597,
+    "avgPlaytimeMinutes": 127,
+    "avgScore": 5523,
+    "byStatus": {
+      "active": 403,
+      "inactive": 0,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-17-1772248448327",
+    "createdAt": "2026-02-14T03:14:08.326Z",
+    "updatedAt": "2026-02-14T03:14:08.326Z",
+    "totalPlayers": 1781,
+    "activePlayers": 275,
+    "avgPlaytimeMinutes": 127,
+    "avgScore": 1498,
+    "byStatus": {
+      "active": 0,
+      "inactive": 278,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-18-1772248448327",
+    "createdAt": "2026-02-15T03:14:08.326Z",
+    "updatedAt": "2026-02-15T03:14:08.326Z",
+    "totalPlayers": 4640,
+    "activePlayers": 1363,
+    "avgPlaytimeMinutes": 105,
+    "avgScore": 2287,
+    "byStatus": {
+      "active": 0,
+      "inactive": 0,
+      "banned": 100
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-19-1772248448327",
+    "createdAt": "2026-02-16T03:14:08.326Z",
+    "updatedAt": "2026-02-16T03:14:08.326Z",
+    "totalPlayers": 146,
+    "activePlayers": 132,
+    "avgPlaytimeMinutes": 65,
+    "avgScore": 534,
+    "byStatus": {
+      "active": 322,
+      "inactive": 0,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-20-1772248448327",
+    "createdAt": "2026-02-17T03:14:08.326Z",
+    "updatedAt": "2026-02-17T03:14:08.326Z",
+    "totalPlayers": 1966,
+    "activePlayers": 773,
+    "avgPlaytimeMinutes": 169,
+    "avgScore": 7741,
+    "byStatus": {
+      "active": 0,
+      "inactive": 422,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-21-1772248448327",
+    "createdAt": "2026-02-18T03:14:08.326Z",
+    "updatedAt": "2026-02-18T03:14:08.326Z",
+    "totalPlayers": 688,
+    "activePlayers": 547,
+    "avgPlaytimeMinutes": 52,
+    "avgScore": 9982,
+    "byStatus": {
+      "active": 0,
+      "inactive": 0,
+      "banned": 4
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-22-1772248448327",
+    "createdAt": "2026-02-19T03:14:08.326Z",
+    "updatedAt": "2026-02-19T03:14:08.326Z",
+    "totalPlayers": 2475,
+    "activePlayers": 327,
+    "avgPlaytimeMinutes": 163,
+    "avgScore": 3643,
+    "byStatus": {
+      "active": 372,
+      "inactive": 0,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-23-1772248448327",
+    "createdAt": "2026-02-20T03:14:08.326Z",
+    "updatedAt": "2026-02-20T03:14:08.326Z",
+    "totalPlayers": 3943,
+    "activePlayers": 3184,
+    "avgPlaytimeMinutes": 106,
+    "avgScore": 6545,
+    "byStatus": {
+      "active": 0,
+      "inactive": 179,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-24-1772248448327",
+    "createdAt": "2026-02-21T03:14:08.326Z",
+    "updatedAt": "2026-02-21T03:14:08.326Z",
+    "totalPlayers": 4234,
+    "activePlayers": 812,
+    "avgPlaytimeMinutes": 112,
+    "avgScore": 508,
+    "byStatus": {
+      "active": 0,
+      "inactive": 0,
+      "banned": 83
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-25-1772248448327",
+    "createdAt": "2026-02-22T03:14:08.326Z",
+    "updatedAt": "2026-02-22T03:14:08.326Z",
+    "totalPlayers": 1325,
+    "activePlayers": 946,
+    "avgPlaytimeMinutes": 34,
+    "avgScore": 6981,
+    "byStatus": {
+      "active": 7,
+      "inactive": 0,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-26-1772248448327",
+    "createdAt": "2026-02-23T03:14:08.326Z",
+    "updatedAt": "2026-02-23T03:14:08.326Z",
+    "totalPlayers": 4350,
+    "activePlayers": 1090,
+    "avgPlaytimeMinutes": 121,
+    "avgScore": 4692,
+    "byStatus": {
+      "active": 0,
+      "inactive": 374,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-27-1772248448327",
+    "createdAt": "2026-02-24T03:14:08.326Z",
+    "updatedAt": "2026-02-24T03:14:08.326Z",
+    "totalPlayers": 794,
+    "activePlayers": 222,
+    "avgPlaytimeMinutes": 134,
+    "avgScore": 1055,
+    "byStatus": {
+      "active": 0,
+      "inactive": 0,
+      "banned": 100
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-28-1772248448327",
+    "createdAt": "2026-02-25T03:14:08.326Z",
+    "updatedAt": "2026-02-25T03:14:08.326Z",
+    "totalPlayers": 1123,
+    "activePlayers": 456,
+    "avgPlaytimeMinutes": 49,
+    "avgScore": 883,
+    "byStatus": {
+      "active": 452,
+      "inactive": 0,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-29-1772248448327",
+    "createdAt": "2026-02-26T03:14:08.326Z",
+    "updatedAt": "2026-02-26T03:14:08.326Z",
+    "totalPlayers": 2385,
+    "activePlayers": 1540,
+    "avgPlaytimeMinutes": 42,
+    "avgScore": 4434,
+    "byStatus": {
+      "active": 0,
+      "inactive": 462,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-seed-30-1772248448327",
+    "createdAt": "2026-02-27T03:14:08.326Z",
+    "updatedAt": "2026-02-27T03:14:08.326Z",
+    "totalPlayers": 4908,
+    "activePlayers": 4833,
+    "avgPlaytimeMinutes": 82,
+    "avgScore": 2283,
+    "byStatus": {
+      "active": 0,
+      "inactive": 0,
+      "banned": 100
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-1772249843882-w461e2n",
+    "createdAt": "2026-02-28T03:37:23.882Z",
+    "updatedAt": "2026-02-28T03:37:23.882Z",
+    "totalPlayers": 200,
+    "activePlayers": 150,
+    "avgPlaytimeMinutes": 300,
+    "avgScore": 250,
+    "byStatus": {
+      "active": 1,
+      "inactive": 0,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-1772249882890-u7z9qj8",
+    "createdAt": "2026-02-28T03:38:02.890Z",
+    "updatedAt": "2026-02-28T03:38:02.890Z",
+    "totalPlayers": 400,
+    "activePlayers": 340,
+    "avgPlaytimeMinutes": 200,
+    "avgScore": 150,
+    "byStatus": {
+      "active": 1,
+      "inactive": 0,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-1772249984318-djwrgfz",
+    "createdAt": "2026-02-28T03:39:44.318Z",
+    "updatedAt": "2026-02-28T03:39:44.318Z",
+    "totalPlayers": 300,
+    "activePlayers": 321,
+    "avgPlaytimeMinutes": 0,
+    "avgScore": 0,
+    "byStatus": {
+      "active": 1,
+      "inactive": 0,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-1772250250837-f39ovvb",
+    "createdAt": "2026-02-28T03:44:10.837Z",
+    "updatedAt": "2026-02-28T03:44:10.837Z",
+    "totalPlayers": 300,
+    "activePlayers": 220,
+    "avgPlaytimeMinutes": 10,
+    "avgScore": 234,
+    "byStatus": {
+      "active": 1,
+      "inactive": 0,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "a-1772250366009-n9mbwqu",
+    "createdAt": "2026-02-28T03:46:06.009Z",
+    "updatedAt": "2026-02-28T03:46:06.009Z",
+    "totalPlayers": 430,
+    "activePlayers": 222,
+    "avgPlaytimeMinutes": 130,
+    "avgScore": 1120,
+    "byStatus": {
+      "active": 1,
+      "inactive": 0,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  }
+]

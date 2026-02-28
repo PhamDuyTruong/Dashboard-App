@@ -1,0 +1,32 @@
+[
+  {
+    "id": "test-1",
+    "createdAt": "2026-02-01T10:00:00.000Z",
+    "updatedAt": "2026-02-01T10:00:00.000Z",
+    "totalPlayers": 100,
+    "activePlayers": 50,
+    "avgPlaytimeMinutes": 60,
+    "avgScore": 500,
+    "byStatus": {
+      "active": 50,
+      "inactive": 30,
+      "banned": 20
+    },
+    "registrationsByDay": []
+  },
+  {
+    "id": "test-2",
+    "createdAt": "2026-02-02T10:00:00.000Z",
+    "updatedAt": "2026-02-02T10:00:00.000Z",
+    "totalPlayers": 200,
+    "activePlayers": 100,
+    "avgPlaytimeMinutes": 90,
+    "avgScore": 750,
+    "byStatus": {
+      "active": 100,
+      "inactive": 0,
+      "banned": 0
+    },
+    "registrationsByDay": []
+  }
+]

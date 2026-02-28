@@ -1,0 +1,21 @@
+schema: spec-driven
+
+# Project context (optional)
+# This is shown to AI when creating artifacts.
+context: |
+  Project: Game Analytics Mini Dashboard (greenfield). Scope: summary statistics only (no player CRUD).
+  API: GET /api/analytics, GET /api/analytics/summary, POST /api/analytics. Real-time: Socket.IO dashboard:refresh on analytics change.
+  Tech stack: React (Vite), Express.js, Tailwind CSS, MUI, Socket.IO, Recharts.
+  Data: JSON file store. No external DB. No Players page or /api/players.
+  Capabilities: dashboard-summary, realtime-events. player-crud is out of scope.
+  See openspec/changes/game-analytics-dashboard/ for the active change.
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always include a "Non-goals" section
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
