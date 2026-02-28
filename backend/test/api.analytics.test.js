@@ -19,7 +19,7 @@ function restoreFixture() {
   fs.writeFileSync(FIXTURE_PATH, JSON.stringify(originalFixture, null, 2), 'utf8');
 }
 
-const { app, io } = require('../index');
+const { app, io } = require('../src/index');
 
 describe('Analytics API — GET list with pagination, search, filter, sort', () => {
   it('GET /api/analytics with page, limit, sortBy, sortOrder returns 200 and shape items, totalCount, totalPages, page, limit, summary', async () => {

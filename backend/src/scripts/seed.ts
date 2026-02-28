@@ -1,17 +1,21 @@
-const path = require('path');
-const fs = require('fs');
-const { writeAnalytics } = require('./store');
+/**
+ * Seed script: generate default analytics entries and write to store.
+ */
 
-const DATA_DIR = path.join(__dirname, '..', 'data');
+import * as path from 'path';
+import * as fs from 'fs';
+import { writeAnalytics } from '../services/store.service';
+import type { AnalyticsEntry, ByStatus } from '../types';
+
+const DATA_DIR = process.env.ANALYTICS_DATA_DIR || path.join(__dirname, '..', '..', 'data');
 const ANALYTICS_FILE = path.join(DATA_DIR, 'analytics.json');
 
-function randomInt(min, max) {
+function randomInt(min: number, max: number): number {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-/** Returns byStatus for one primary status: only that key is non-zero so the item shows as that status. */
-function byStatusFor(statusKind) {
-  const base = { active: 0, inactive: 0, banned: 0 };
+function byStatusFor(statusKind: 'active' | 'inactive' | 'banned'): ByStatus {
+  const base: ByStatus = { active: 0, inactive: 0, banned: 0 };
   const count = randomInt(1, 500);
   if (statusKind === 'active') base.active = count;
   else if (statusKind === 'inactive') base.inactive = count;
@@ -19,11 +23,12 @@ function byStatusFor(statusKind) {
   return base;
 }
 
-function generateEntries(count = 30) {
-  const entries = [];
+function generateEntries(count: number = 30): AnalyticsEntry[] {
+  const entries: AnalyticsEntry[] = [];
   const baseDate = new Date();
   baseDate.setDate(baseDate.getDate() - 30);
-  const statuses = ['active', 'inactive', 'banned'];
+  const statuses: ('active' | 'inactive' | 'banned')[] = ['active', 'inactive', 'banned'];
+
   for (let i = 0; i < count; i++) {
     const totalPlayers = randomInt(50, 5000);
     const activePlayers = randomInt(10, totalPlayers);
@@ -32,6 +37,7 @@ function generateEntries(count = 30) {
     const date = new Date(baseDate);
     date.setDate(date.getDate() + Math.floor((i * 30) / count));
     const iso = date.toISOString();
+
     entries.push({
       id: `a-seed-${i + 1}-${Date.now()}`,
       createdAt: iso,
@@ -44,10 +50,11 @@ function generateEntries(count = 30) {
       registrationsByDay: [],
     });
   }
+
   return entries;
 }
 
-function seed() {
+function seed(): void {
   if (!fs.existsSync(DATA_DIR)) {
     fs.mkdirSync(DATA_DIR, { recursive: true });
   }

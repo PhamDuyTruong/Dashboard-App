@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
-    "backend": "cd backend && node index.js",
-    "backend:watch": "cd backend && nodemon index.js",
+    "backend": "cd backend && npm run dev",
+    "backend:watch": "cd backend && nodemon --exec ts-node src/index.ts",
     "frontend": "cd frontend && npm run dev",
     "frontend:build": "cd frontend && npm run build",
-    "seed": "node backend/utils/seed.js",
+    "seed": "cd backend && npm run seed",
     "test": "npm run test:backend && npm run test:frontend",
     "test:backend": "cd backend && npm test",
     "test:frontend": "cd frontend && npm test"

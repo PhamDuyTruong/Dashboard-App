@@ -2,6 +2,8 @@
 
 Mini dashboard for game analytics: summary statistics, table with search/filter/pagination, charts, and create-entry modal. Real-time updates via Socket.IO.
 
+![Game Analytics Dashboard](docs/dashboard-screenshot.png)
+
 ## Prerequisites
 
 - **Node.js** 18.x or 20.x (LTS recommended). Check: `node -v`
@@ -37,7 +39,7 @@ npm install
 npm run dev
 ```
 
-Backend runs at **http://localhost:3001**. API and Socket.IO are available at that port.
+Backend runs at **http://localhost:3001** (TypeScript via `ts-node` in dev). API and Socket.IO are available at that port.
 
 ### 3. Frontend
 
@@ -147,3 +149,7 @@ Creates a new analytics entry. On success, the server emits `dashboard:refresh` 
 - **Frontend:** `frontend/src/components/dashboard/CreateEntryModal.test.jsx` (Vitest).
 
 See `docs/TEST_CASES.md` for the full list of test cases.
+
+Screen recording:
+
+
