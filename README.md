@@ -2,7 +2,19 @@
 
 Mini dashboard for game analytics: summary statistics, table with search/filter/pagination, charts, and create-entry modal. Real-time updates via Socket.IO.
 
+### Screenshots
+
+**Dashboard (light theme)** — Summary cards, charts, table with status tags, pagination.
+
 ![Game Analytics Dashboard](docs/dashboard-screenshot.png)
+
+**Create analytics entry** — Modal form with validation (e.g. activePlayers ≤ totalPlayers).
+
+![Create analytics entry modal](docs/create-entry-modal.png)
+
+**Dashboard (dark theme)** — Filter by status, sort by Created/Last modified, status tags.
+
+![Dashboard dark theme](docs/dashboard-dark-theme.png)
 
 ## Prerequisites
 
@@ -149,7 +161,4 @@ Creates a new analytics entry. On success, the server emits `dashboard:refresh` 
 - **Frontend:** `frontend/src/components/dashboard/CreateEntryModal.test.jsx` (Vitest).
 
 See `docs/TEST_CASES.md` for the full list of test cases.
-
-Screen recording:
-
 
