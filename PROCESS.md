@@ -249,7 +249,3 @@ Total rough range: **3–4 hours** (with AI assistance).
 - **TablePagination dropdown** — On very small viewports, menu position might still be tight; current fix uses scroll and upward opening.
 - **Fixture restore** — Backend tests restore `test/fixtures/analytics.json` after each mutating test; if a test fails mid-run, fixture might be left modified.
 - **Dark mode** — Stored in Redux only; not persisted to localStorage, so it resets on reload.
-
----
-
-*Last updated to reflect the current backend/frontend structure, OpenSpec-driven workflow, and AI-assisted development.*
